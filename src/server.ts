@@ -1,5 +1,6 @@
 function welcome(name: string) {
-  return `Hello, ${name}!`;
+  //return `Hello, ${name}!`;
+  console.log(name);
 }
 
 welcome('Sabbir');

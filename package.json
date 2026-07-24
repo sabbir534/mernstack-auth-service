@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "The User Management System",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "node src/server.js",
     "format:fix": "prettier . --write",
     "format:check": "prettier . --check",
+    "lint:fix": "eslint . --fix",
+    "lint:check": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,8 +23,11 @@
   },
   "homepage": "https://github.com/sabbir534/mernstack-auth-service#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
     "prettier": "3.9.6",
-    "typescript": "^7.0.2"
+    "typescript": "5",
+    "typescript-eslint": "^8.65.0"
   }
 }
