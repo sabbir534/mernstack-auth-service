@@ -1,10 +1,3 @@
-function welcome(name: string) {
-  //return `Hello, ${name}!`;
-  console.log(name);
-  const user = {
-    fname: 'Ahmed',
-  };
-  return user.fname;
-}
+import { Config } from './config/index.js';
 
-welcome('Sabbir');
+console.log(Config.PORT);
