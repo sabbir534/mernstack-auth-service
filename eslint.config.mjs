@@ -14,6 +14,8 @@ export default defineConfig([
       'coverage',
       'eslint.config.mjs',
       '*.config.js',
+      'jest.config.cjs',
+      '**/*.spec.ts',
     ],
   },
 
